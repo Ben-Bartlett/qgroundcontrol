@@ -98,6 +98,10 @@ public:
         RESERVED_18       = 18,
         MANUAL            = 19,
         MOTORDETECTION    = 20,
+        RESERVED_21       = 21,
+        RESERVED_22       = 22,
+        RESERVED_23       = 23,
+        DYNA_POS          = 24,   // Dynamic Positioning
     };
 
     APMSubMode(uint32_t mode, bool settable);
