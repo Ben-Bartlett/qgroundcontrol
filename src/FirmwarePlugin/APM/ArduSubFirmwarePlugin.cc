@@ -42,6 +42,7 @@ APMSubMode::APMSubMode(uint32_t mode, bool settable) :
         {CIRCLE, "Circle"},
         {SURFACE, "Surface"},
         {POSHOLD, "Position Hold"},
+        {DYNA_POS, "Dynamic Positioning/Hold"},
         {MOTORDETECTION, "Motor Detection"},
     });
 }
